@@ -19,8 +19,8 @@ namespace Uber_project
 
         private void button4_Click(object sender, EventArgs e)
         {
-            TripAdmin ta = new TripAdmin();
-            ta.Show();
+            crystal_form v = new crystal_form();
+            v.Show();
             this.Hide();
             Form1 b = new Form1();
             b.Hide();
@@ -28,16 +28,12 @@ namespace Uber_project
 
         private void button1_Click(object sender, EventArgs e)
         {
-            CommentDriver cd = new CommentDriver();
-            cd.Show();
-            this.Hide();
-            Form1 b = new Form1();
-            b.Hide();
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Vehiclee v = new Vehiclee();
+            Vehicle v = new Vehicle();
             v.Show();
             this.Hide();
             Form1 b = new Form1();
